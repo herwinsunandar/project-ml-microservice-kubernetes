@@ -1,0 +1,13 @@
+<paste log output from Kubernetes-mediated prediction, here>
+microservice-kubernetes$ ./run_
+run_docker.sh      run_kubernetes.sh  
+(.devops) erwin@erwin:~/Desktop/AWS/projectfour/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "flasklearndemokube" already exists
+NAME                  READY   STATUS    RESTARTS   AGE
+flasklearndemokube    1/1     Running   1          31m
+flaskslearndemo       0/1     Error     1          80m
+flaskslearndemokube   1/1     Running   2          116m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
